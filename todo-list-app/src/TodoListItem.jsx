@@ -2,6 +2,7 @@ import { useDispatch } from "react-redux";
 import { deleteTodo, markTodoAsCompleted } from "./thunks";
 import { CardContainer } from "./styledComponent";
 
+
 export default function TodoListItem({ todo }) {
   const dispatch = useDispatch();
 
